@@ -1,0 +1,346 @@
+.title {
+  @media (max-width: 900px) {
+    font-size: 26px;
+
+  }
+  @media (min-width: 900px) {
+    font-size: 36px;
+  }
+  font-family: "Popins-bold";
+
+  line-height: 49px;
+  letter-spacing: 0.5;
+  color: #0f001f;
+}
+.titleB {
+  color: #9d3cd9;
+}
+
+.backgroundAuto {
+  padding-top: 20px;
+  background-image: "../../../../../assets/images/auto.png" !important;
+}
+
+.subTitle {
+  @media (max-width: 900px) {
+    width: 250px;
+
+  }
+  @media (min-width: 900px) {
+    width: 550px;
+  }
+  font-family: "Popins-Normal";
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  color: #0f001f;
+
+}
+.subTitleB {
+  color: #d20193;
+}
+
+.butonComAuto {
+  border-radius: 24px;
+  font-family: "Popins-Normal";
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  text-align: center;
+  background-color: #9d3cd9;
+  width: 224px;
+  height: 50px;
+  color: #ffffff;
+}
+
+.butonVenAuto {
+  border-radius: 24px;
+  font-family: "Popins-Normal";
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #d20193;
+  border-radius: 24px;
+  border: solid 1px #d20193;
+  width: 224px;
+  height: 50px;
+}
+
+.positionCar {
+  @media (max-width: 900px) {
+    width: 345px;
+    height: 158px;
+  }
+  @media (min-width: 900px) {
+    width: 620px;
+    height: 318px;
+  }
+}
+
+.apperCarrusel{
+  @media (max-width: 900px) {
+ display:none;
+ background-color:transparent;
+  }
+  @media (min-width: 900px) {
+    display:block;
+    background-color:transparent;
+  }
+
+}
+.apperCarruselM{
+  @media (max-width: 900px) {
+    display:block;
+
+  }
+  @media (min-width: 900px) {
+    display:none;
+
+  }
+
+}
+
+.paddingRegularIcon {
+  padding-top: 14px;
+}
+
+.paddingIrregularIcon {
+  padding-top: 36px;
+}
+
+.paddingIrregularIconFiat {
+  padding-top: 32px;
+}
+
+.paddingIrregularIconFord {
+  padding-top: 11px;
+}
+
+.textIcon {
+  font-family: "Roboto-Normal";
+  font-size: 12px;
+  color: #0f001f;
+}
+
+.paddingViewMore {
+  padding-top: 32px;
+  color: #d20193;
+}
+
+.textBColor {
+
+  color: #2e0b35;
+  font-family: "Roboto-Normal";
+
+  font-weight: 500;
+  @media (max-width: 900px) {
+    font-size: 20px;
+    width: 248px;
+  }
+  @media (min-width: 900px) {
+    font-size: 30px;
+    width: 348px;
+  }
+}
+
+.textBColorSpan {
+  font-family: "Popins-bold";
+}
+
+.paddingleftSpace {
+  width: 150px;
+}
+
+.backCard {
+  background-image: linear-gradient(to bottom, #9d3cd9, #0f001f);
+
+
+}
+
+.card {
+  width: 100%;
+}
+.iconCard {
+  width: 35px;
+  height: 35px;
+}
+.iconCard2 {
+  width: 30px;
+  height: 30px;
+}
+
+hr {
+
+  @media (max-width: 900px) {
+    display: none;
+  }
+  @media (min-width: 900px) {
+    border: block;
+    border-left: 1px solid #0f001f;
+    height: 180px;
+    width: 0px;
+    padding-bottom: 30px;
+  }
+
+}
+
+
+
+.colCard {
+  width: 80px;
+  padding-left: 80px;
+  padding-right: 30px;
+}
+
+.titleCard {
+  @media (max-width: 900px) {
+    width: 170px;
+
+  }
+  @media (min-width: 900px) {
+    width: 270px;
+  }
+
+  padding-top: 27px;
+  font-family: "Popins-Normal";
+  font-size: 20px;
+  font-weight: 600;
+  color: #0f001f;
+}
+
+.textCard {
+  padding-top: 15px;
+  font-size: 12px;
+  font-family: "Popins-Normal";
+  color: #0f001f;
+  width: 263px;
+}
+
+.betweenCard {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-size: 19px;
+  color: #fff;
+  font-family: "Popins-Bold";
+}
+
+.garantia {
+  font-family: "Popins-Normal";
+  color: #0f001f;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.garantia2 {
+  font-family: "Popins-Bold";
+  font-weight: 900 !important;
+}
+
+.garantiaText {
+  padding-top: 30px;
+
+  font-size: 12px;
+  font-family: "Popins-Normal";
+  color: #0f001f;
+}
+
+.garantiaText1 {
+  padding-top: 30px;
+
+  font-size: 12px;
+  font-family: "Popins-Normal";
+  color: #0f001f;
+}
+
+.garantiaText2 {
+  padding-top: 30px;
+  font-size: 12px;
+  font-family: "Popins-Normal";
+  color: #0f001f;
+}
+
+.garantiaText3 {
+  padding-top: 30px;
+  width: 160px;
+  font-size: 12px;
+  font-family: "Popins-Normal";
+  color: #0f001f;
+}
+
+.garantiaPaddingImage {
+  padding-top: 35px;
+}
+
+.garantiaPaddingImage2 {
+  padding-top: 18px;
+}
+
+.colsGaran {
+  width: 230px;
+}
+
+.aplicanTermi {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Popins-Normal";
+  font-size: 13px;
+  color: #0f001f;
+}
+.colorAplicanTermi {
+  text-decoration: none;
+  color: #d20193;
+  cursor: pointer;
+}
+
+.masonryBack {
+  background-image: linear-gradient(to bottom, #9d3cd9, #0f001f);
+
+}
+
+
+
+
+
+
+
+.textSliderCard{
+  text-align: left
+}
+
+
+.imageSliderCard{
+  max-width: 50px;
+  max-height: 50px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+
+}
+
+.start{
+  width:11px;
+  height:11px;
+  position: relative;
+  bottom: 2px;
+}
+
+.grid-item {
+  float: left;
+  width: 80px;
+  height: 60px;
+  border: 2px solid hsla(0, 0%, 0%, 0.5);
+}
+
+
+
+.grid-item--width2 { width: 160px; }
+.grid-item--height2 { height: 140px; }
+
+
+
+.whiteTCards{
+  width: 100%;
+  border: 2px solid hsla(0, 0%, 0%, 0.5);
+}
+
+

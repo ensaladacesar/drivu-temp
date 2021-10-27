@@ -1,0 +1,44 @@
+.backPrincipal{
+  background-color: #0f001f;
+  color: #fff;
+  font-family: 'Popins-Normal';
+  font-size: 9px;
+
+}
+
+.logo{
+  width: 65px;
+  height: 100px;
+}
+
+.redes{
+  width: 25px;
+  height: 25px;
+}
+
+.positionRedes{
+  @media (max-width: 900px) {
+    justify-content: center;
+
+  }
+  @media (min-width: 900px) {
+    justify-content: end;
+  }
+}
+
+.aFooter{
+  text-decoration: none;
+  color: #fff;
+  width: 190px;
+}
+
+.whitA{
+  width: 150px;
+}
+
+.copy{
+  color: #fff;
+  font-size: 10px;
+  font-family: 'Popins-Normal';
+  font-weight: 300;
+}

@@ -1,0 +1,41 @@
+.backNumber{
+  background-image: linear-gradient(to right, #0f001f , #9d3cd9);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: 'Helvetica';
+}
+
+.logo{
+  width: 110.9px;
+  height: 32px;
+}
+
+.subTitle{
+  font-size: 15px;
+  font-weight: 500;
+  color: #0f001f;
+  font-family: 'Popins-Normal';
+  @media (max-width: 900px) {
+   justify-content: center;
+  }
+}
+
+.paddingMenu{
+  padding-top: 24px;
+}
+
+.serch{
+  width: 100%;
+  border: none;
+}
+
+.paddingSerch{
+  padding-top: 40px;
+}
+
+.redirect{
+  text-decoration: none;
+  cursor: pointer;
+  color: #0f001f;
+}
