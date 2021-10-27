@@ -259,7 +259,7 @@
             <mat-carousel-slide [hideOverlay]="true">
               <div class="row justify-content-center">
                 <div class="col-8">
-                  <mat-card>
+                  <mat-card class="pt-3">
                     <mat-card-content>
                       {{ images[0].text }}
                     </mat-card-content>
@@ -284,7 +284,7 @@
                   class="col-3"
                   *ngFor="let image of images | slice: 0:3; let i = index"
                 >
-                  <div class="row">
+                  <div class="row pt-5">
                     <div class="col">
                       <mat-card>
                         <mat-card-content>
@@ -338,7 +338,7 @@
                   class="col-3"
                   *ngFor="let image of images | slice: 3:6; let i = index"
                 >
-                  <div class="row">
+                  <div class="row pt-5">
                     <div class="col">
                       <mat-card>
                         <mat-card-content>
@@ -407,7 +407,7 @@
       <div class="row justify-content-center">
         <div class="col text-center">
           <p class="garantiaText">
-            Garantía mecanica hasta <strong>$100,000</strong> Sin limite de
+            Garantía mecanica hasta <strong>$100,000 </strong> Sin limite de
             eventos ni deducibles
           </p>
         </div>
