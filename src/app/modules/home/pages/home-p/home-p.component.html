@@ -250,7 +250,7 @@
         </div>
       </div>
       <div class="row justify-content-center apperCarruselM carousel-list">
-        <div class="col apperCarruselM">
+        <div class="col apperCarruselM mb-5">
           <mat-carousel
             [hideArrows]="false"
             [hideIndicators]="true"
@@ -259,9 +259,133 @@
             <mat-carousel-slide [hideOverlay]="true">
               <div class="row justify-content-center">
                 <div class="col-8">
-                  <mat-card class="pt-3">
+                  <mat-card>
                     <mat-card-content>
-                      {{ images[0].text }}
+                      {{
+                        images[0].text.length > 50
+                          ? (images[0].text | slice: 0:50) + ".."
+                          : images[0].text
+                      }}
+                      <div class="row justify-content-between">
+                        <div class="col-8">
+                          <div class="row">
+                            <div class="col-3">
+                              <img
+                                class="imageSliderCard"
+                                src="{{ images[0].picture }}"
+                              />
+                            </div>
+                            <div class="col-5 pt-1">
+                              <div class="row">
+                                <div class="col-12">
+                                  {{ images[0].nombre }}
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-4">
+                          <div class="row pt-1">
+                            <div class="col-12">
+                              <img
+                                class="start"
+                                src="../../../../../assets/images/start.svg"
+                              />
+                              {{ images[0].rank }}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </mat-card-content>
+                  </mat-card>
+                </div>
+              </div>
+            </mat-carousel-slide>
+            <mat-carousel-slide [hideOverlay]="true">
+              <div class="row justify-content-center">
+                <div class="col-8">
+                  <mat-card>
+                    <mat-card-content>
+                      {{
+                        images[1].text.length > 50
+                          ? (images[1].text | slice: 0:50) + ".."
+                          : images[1].text
+                      }}
+                      <div class="row justify-content-between">
+                        <div class="col-8">
+                          <div class="row">
+                            <div class="col-3">
+                              <img
+                                class="imageSliderCard"
+                                src="{{ images[1].picture }}"
+                              />
+                            </div>
+                            <div class="col-5 pt-1">
+                              <div class="row">
+                                <div class="col-12">
+                                  {{ images[1].nombre }}
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-4">
+                          <div class="row pt-1">
+                            <div class="col-12">
+                              <img
+                                class="start"
+                                src="../../../../../assets/images/start.svg"
+                              />
+                              {{ images[1].rank }}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </mat-card-content>
+                  </mat-card>
+                </div>
+              </div>
+            </mat-carousel-slide>
+            <mat-carousel-slide [hideOverlay]="true">
+              <div class="row justify-content-center">
+                <div class="col-8">
+                  <mat-card>
+                    <mat-card-content>
+                      {{
+                        images[2].text.length > 50
+                          ? (images[2].text | slice: 0:50) + ".."
+                          : images[2].text
+                      }}
+                      <div class="row justify-content-between">
+                        <div class="col-8">
+                          <div class="row">
+                            <div class="col-3">
+                              <img
+                                class="imageSliderCard"
+                                src="{{ images[2].picture }}"
+                              />
+                            </div>
+                            <div class="col-5 pt-1">
+                              <div class="row">
+                                <div class="col-12">
+                                  {{ images[2].nombre }}
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-4">
+                          <div class="row pt-1">
+                            <div class="col-12">
+                              <img
+                                class="start"
+                                src="../../../../../assets/images/start.svg"
+                              />
+                              {{ images[2].rank }}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </mat-card-content>
                   </mat-card>
                 </div>
@@ -284,10 +408,10 @@
                   class="col-3"
                   *ngFor="let image of images | slice: 0:3; let i = index"
                 >
-                  <div class="row pt-5">
+                  <div class="row pt-3">
                     <div class="col">
-                      <mat-card>
-                        <mat-card-content>
+                      <mat-card >
+                        <mat-card-content >
                           <div class="row">
                             <div class="col">
                               <p class="text-slider-card"></p>
@@ -297,7 +421,7 @@
                           <div class="row justify-content-between pt-1">
                             <div class="col-9">
                               <div class="row">
-                                <div class="col-3">
+                                <div class="col-4">
                                   <img
                                     class="imageSliderCard"
                                     src="{{ images[i].picture }}"
@@ -338,7 +462,7 @@
                   class="col-3"
                   *ngFor="let image of images | slice: 3:6; let i = index"
                 >
-                  <div class="row pt-5">
+                  <div class="row pt-3">
                     <div class="col">
                       <mat-card>
                         <mat-card-content>
@@ -351,7 +475,7 @@
                           <div class="row justify-content-between">
                             <div class="col-9">
                               <div class="row">
-                                <div class="col-3">
+                                <div class="col-4">
                                   <img
                                     class="imageSliderCard"
                                     src="{{ images[i].picture }}"
@@ -470,11 +594,7 @@
     </div>
   </div>
 
-  <div class="row masonryBack justify-content-center">
-
-  </div>
-  <div class="row whitemasonryBack  no-gutters justify-content-center">
-
-  </div>
+  <div class="row masonryBack justify-content-center"></div>
+  <div class="row whitemasonryBack no-gutters justify-content-center"></div>
   <app-footer></app-footer>
 </div>

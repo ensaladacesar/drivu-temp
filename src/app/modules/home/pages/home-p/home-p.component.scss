@@ -1,7 +1,6 @@
 .title {
   @media (max-width: 900px) {
     font-size: 26px;
-
   }
   @media (min-width: 900px) {
     font-size: 36px;
@@ -24,7 +23,6 @@
 .subTitle {
   @media (max-width: 900px) {
     width: 250px;
-
   }
   @media (min-width: 900px) {
     width: 550px;
@@ -33,7 +31,6 @@
   font-size: 24px;
   letter-spacing: 0.5px;
   color: #0f001f;
-
 }
 .subTitleB {
   color: #d20193;
@@ -77,27 +74,24 @@
   }
 }
 
-.apperCarrusel{
+.apperCarrusel {
   @media (max-width: 900px) {
- display:none;
- background-color:transparent;
+    display: none;
+    background-color: transparent;
   }
   @media (min-width: 900px) {
-    display:block;
-    background-color:transparent;
+    display: block;
+    background-color: transparent;
+    margin-bottom: 30px;
   }
-
 }
-.apperCarruselM{
+.apperCarruselM {
   @media (max-width: 900px) {
-    display:block;
-
+    display: block;
   }
   @media (min-width: 900px) {
-    display:none;
-
+    display: none;
   }
-
 }
 
 .paddingRegularIcon {
@@ -128,7 +122,6 @@
 }
 
 .textBColor {
-
   color: #2e0b35;
   font-family: "Roboto-Normal";
 
@@ -153,8 +146,6 @@
 
 .backCard {
   background-image: linear-gradient(to bottom, #9d3cd9, #0f001f);
-
-
 }
 
 .card {
@@ -170,7 +161,6 @@
 }
 
 hr {
-
   @media (max-width: 900px) {
     display: none;
   }
@@ -181,10 +171,7 @@ hr {
     width: 0px;
     padding-bottom: 30px;
   }
-
 }
-
-
 
 .colCard {
   width: 80px;
@@ -195,7 +182,6 @@ hr {
 .titleCard {
   @media (max-width: 900px) {
     width: 170px;
-
   }
   @media (min-width: 900px) {
     width: 270px;
@@ -294,32 +280,29 @@ hr {
 
 .masonryBack {
   background-image: linear-gradient(to bottom, #9d3cd9, #0f001f);
-
 }
 
-
-
-
-
-
-
-.textSliderCard{
-  text-align: left
+.textSliderCard {
+  text-align: left;
 }
 
-
-.imageSliderCard{
-  max-width: 50px;
-  max-height: 50px;
+.imageSliderCard {
+  @media (max-width: 900px) {
+    max-width: 25px;
+    max-height: 25px;
+  }
+  @media (min-width: 900px) {
+    max-width: 50px;
+    max-height: 50px;
+  }
   position: relative;
   overflow: hidden;
   border-radius: 50%;
-
 }
 
-.start{
-  width:11px;
-  height:11px;
+.start {
+  width: 11px;
+  height: 11px;
   position: relative;
   bottom: 2px;
 }
@@ -331,16 +314,23 @@ hr {
   border: 2px solid hsla(0, 0%, 0%, 0.5);
 }
 
+.grid-item--width2 {
+  width: 160px;
+}
+.grid-item--height2 {
+  height: 140px;
+}
 
-
-.grid-item--width2 { width: 160px; }
-.grid-item--height2 { height: 140px; }
-
-
-
-.whiteTCards{
+.whiteTCards {
   width: 100%;
   border: 2px solid hsla(0, 0%, 0%, 0.5);
 }
 
-
+.rowCarrusel {
+  position: relative;
+  bottom: 30px;
+  margin-bottom: 40px;
+}
+.carousel-list {
+  margin-bottom: 70px;
+}
