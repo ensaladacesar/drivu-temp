@@ -47,6 +47,7 @@
   width: 224px;
   height: 50px;
   color: #ffffff;
+  border: solid 1px #9d3cd9;
 }
 
 .butonVenAuto {
@@ -82,7 +83,7 @@
   @media (min-width: 900px) {
     display: block;
     background-color: transparent;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
   }
 }
 .apperCarruselM {
@@ -175,7 +176,7 @@ hr {
 
 .colCard {
   width: 80px;
-  padding-left: 80px;
+  padding-left: 70px;
   padding-right: 30px;
 }
 
@@ -184,7 +185,7 @@ hr {
     width: 170px;
   }
   @media (min-width: 900px) {
-    width: 270px;
+    width: 240px;
   }
 
   padding-top: 27px;
@@ -199,7 +200,7 @@ hr {
   font-size: 12px;
   font-family: "Popins-Normal";
   color: #0f001f;
-  width: 263px;
+  width: 243px;
 }
 
 .betweenCard {
@@ -332,5 +333,6 @@ hr {
   margin-bottom: 40px;
 }
 .carousel-list {
-  margin-bottom: 70px;
+
+
 }

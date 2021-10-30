@@ -8,20 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePComponent implements OnInit {
   images: any;
-  responsiveOption: any;
   masonryItems: any;
 
   constructor() {
-    this.responsiveOption = [
-      {
-        breakpoint: '1024px',
-        numVisible: 1,
-        numScroll: 3,
-      },
-    ];
+
   }
 
   ngOnInit(): void {
+    this.items();
+  }
+
+  items(){
     this.images = [
       {
         text: ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit minima quaerat quas odio, perferendis, voluptates nisi a ',
@@ -70,5 +67,6 @@ export class HomePComponent implements OnInit {
       { title: '../../../../../assets/images/perfil.png' },
       { title: '../../../../../assets/images/perfil.png' },
     ];
+
   }
 }
